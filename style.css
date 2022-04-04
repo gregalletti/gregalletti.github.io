@@ -1,0 +1,50 @@
+body {
+    background: #222222;
+    color: #aaa;
+    font-family: "Menlo", "Meslo LG", monospace;
+  }
+
+a {
+  color: #fff;
+  transition: 0.5s;
+  cursor: pointer;
+  text-decoration: underline;
+
+}
+
+a:hover, a:active, a:focus {
+  color: #69ffd8;
+  outline: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat";
+    font-weight: 600;
+    color: #69ffd8;
+  }
+
+.home-page {
+    text-align: center;
+    padding: 1rem 0rem 0rem 0rem;
+}
+
+.home-text {
+    font-family: "Montserrat";
+    color: #fff;
+}
+
+.listing {
+    
+    padding: 0rem 0rem 4rem 0rem;
+    display: inline-block;
+    text-align: left;
+}
+
+.pages {
+    display: inline-block;
+}
+
+.pages-a {
+    color: #69ffd8;
+    padding: 0rem 2rem 0rem 2rem;
+}
